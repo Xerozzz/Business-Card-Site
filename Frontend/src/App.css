@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.profiles {
+  background: lightgrey;
+  height: 100vh;
+}
+
+.profilepic {
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  border-bottom: 1px solid white;
+}
+
+.picture {
+  border-radius: 50%;
+  height: auto;
+  width: 50%;
+}
+
+.details {
+  text-align: left;
+  padding-left: 3vh;
+  padding-top: 2vh;
+}
+
+.details h1,
+.details h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.details h1 {
+  font-weight: 500;
+}
+
+.details h2 {
+  font-size: 100%;
+}
+
+.tablemain {
+  text-align: left;
+  width: 100%;
+}
+
+.info {
+  padding-left: 3vh;
+  padding-top: 3vh;
+}
+
+.icon {
+  float: right;
+  width: 100%;
+}
+
+.tablerow {
+  height: 8vh;
+}
+
+.tablerow td {
+  vertical-align: middle;
+  font-size: 110%;
+  padding: 0;
+}
+
+.iconcircle {
+  display: flex;
+  /* CIRCLE SIZE */
+  width: 5vh;
+  height: 5vh;
+  background: lightcyan;
+  /*BACKGROUND COLOR HERE*/
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 500px) {
+  .App {
+    display: flex;
+    align-items: center; /* This will vertically align your child elements */
+    justify-content: center; /* This will horizontally align your child elements */
+    height: 100vh;
+    background-color: grey;
+  }
+
+  .profiles {
+    width: 42vh;
+    height: 90vh;
+    border-radius: 25px;
+  }
+}
