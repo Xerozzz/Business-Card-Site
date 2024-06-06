@@ -22,7 +22,12 @@ export default function Profiles() {
         <div className="profiles">
           <Pic picurl={data.picurl} />
           <Details name={data.name} role={data.role} company={data.company} />
-          <Info email={data.email} phone={data.phone} />
+          <Info
+            email={data.email}
+            phone={data.phone}
+            website={data.website}
+            location={data.location}
+          />
         </div>
       )}
     </div>
