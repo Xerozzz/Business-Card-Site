@@ -28,15 +28,15 @@
 .details h1,
 .details h2 {
   margin: 0;
-  font-weight: normal;
 }
 
-.details h1 {
-  font-weight: 500;
+.companyrole {
+  font-weight: bold;
 }
 
 .details h2 {
   font-size: 100%;
+  font-weight: normal;
 }
 
 .tablemain {
